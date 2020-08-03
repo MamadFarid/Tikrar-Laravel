@@ -73,6 +73,6 @@ class SuperAdminController extends Controller
     public function destroy($id){
     	Instansi::find($id)->delete();
 
-    	return response()->json(['success'=>'Anggota Dihapus.']);
+    	return response()->json(['success'=>'Instansi Dihapus.']);
     }
 }
